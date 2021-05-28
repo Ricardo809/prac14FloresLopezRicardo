@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: seagreen;
+}
+h2{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 22px;
+    font: optional;
+    background-color: snow;
+    color: orange;
+
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background-color: snow;
+}
+
+.navegacion > ul{
+    list-style: none;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.menu > li > a :hover{
+    color: gold;
+    transition: all .3s;
+}
+
+
