@@ -1,10 +1,11 @@
 alert("Clasificar que numero de los tres es menor");
 
 function resetear(){
-    document.getElementById('resetear').reset();
+    document.getElementById('resetear').reset();                                        
 }
 
-var menor = function(n1,n2,n3){
+//var menor = function()
+function menor(){
     var numero1 = Number(document.getElementById("primer").value);
     var numero2 = Number(document.getElementById("segundo").value);
     var numero3 = parseInt(document.getElementById("tercer").value);
